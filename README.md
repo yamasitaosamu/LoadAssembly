@@ -19,6 +19,12 @@
 1. 実行プロセスのビット数
 2. 動的アセンブリロードの可否
 
+MSDNの下記ページに書かれている内容の追試行という位置づけになる。
+
+* コンパイラの出力オプション PlatformTarget  
+  https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/compiler-options/output#platformtarget
+
+
 アセンブリのロードは以下の3種類の方法を調査した。
 
 1. Assembly.LoadFile() - .NET Framework, .NET Standard で使える仕組み
